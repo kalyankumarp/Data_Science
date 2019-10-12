@@ -71,8 +71,8 @@ if (h==1):
     print(h2)
     if h1==h2:
         print("Eve Was not Present")
-    qber=1-(l/n)
-    print("Quantum Bit Error Rate is:",round(qber*100,2),"%")
+    eff=1-(l/n)
+    print("Efficiency is:",round(eff*100,2),"%")
     l=len(kalice)
     print(l)
     if(l<128):
@@ -338,9 +338,3 @@ else :
     print(h2)
     if h1!=h2:
         print("Eve Was Detected")
-    
-    
-    
-
-
-
